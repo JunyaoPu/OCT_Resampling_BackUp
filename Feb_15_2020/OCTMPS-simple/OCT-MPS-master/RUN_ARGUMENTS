@@ -1,0 +1,37 @@
+Ellipsoidand2Spheres
+
+-G=1
+/home/junyao/cuda-workspace/OCTMPS-simple/OCT-MPS-master/input/Ellipsoidand2Spheres/ellipsoid_and_two_spheres_60_degree.opt
+
+/home/junyao/cuda-workspace/OCTMPS-simple/OCT-MPS-master/input/Ellipsoidand2Spheres/ellipsoid_and_two_spheres_60_degree.mesh  
+
+/home/junyao/cuda-workspace/OCTMPS-simple/OCT-MPS-master/input/Ellipsoidand2Spheres/BiasStartup.mci
+
+
+
+
+sphere
+
+-G=1
+/home/junyao/cuda-workspace/OCTMPS-simple/OCT-MPS-master/input/Sphere/Sphere.opt
+
+/home/junyao/cuda-workspace/OCTMPS-simple/OCT-MPS-master/input/Sphere/Sphere.mesh
+
+/home/junyao/cuda-workspace/OCTMPS-simple/OCT-MPS-master/input/Sphere/BiasStartup.mci
+
+
+
+sphere(1 Run)
+
+-G=1
+/home/junyao/Input_sphere/Sphere.opt
+
+/home/junyao/Input_sphere/Sphere.mesh
+
+/home/junyao/Input_sphere/BiasStartup.mci
+
+
+Example
+
+./OCT-MPS /home/junyao/Input_sphere/Sphere.opt /home/junyao/Input_sphere/Sphere.mesh /home/junyao/Input_sphere/BiasStartup.mci
+

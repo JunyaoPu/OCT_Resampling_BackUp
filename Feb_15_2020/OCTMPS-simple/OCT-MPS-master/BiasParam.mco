@@ -1,0 +1,15 @@
+2789					# Number of filtered photons
+2789					# Number of Class I filtered photons
+0					# Number of Class II filtered photons
+1					# Type of simulation
+37					# Type of bias
+10240					# Number of photon packets
+0.925					# Backward bias coefficient
+0					# Target depth min [cm]
+0.19					# Target depth max [cm]
+0.0015					# Coherence length source [cm]
+0.001					# Max collecting radius [cm]
+5					# Max collecting angle [grad]
+0					# Record photons flag
+0.5					# Probability of additional bias
+0.01					# Maximum relative contribution to bin per post-processed sample
